@@ -67,9 +67,13 @@ space-portfolio/
   |- public/
   |- .eslintrc.json
   |- .gitignore
+  |- build-log.txt
+  |- build-log2.txt
   |- eslint.config.mjs
   |- netlify.toml
   |- next.config.js
+  |- out.txt
+  |- out2.txt
   |- package-lock.json
   |- package.json
   |- postcss.config.js
@@ -125,6 +129,7 @@ Useful resources and dependencies that are used in Space Portfolio.
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): 19.2.3
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.27
 - [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
+- [cross-env](https://www.npmjs.com/package/cross-env): ^10.1.0
 - [eslint](https://www.npmjs.com/package/eslint): ^10.0.3
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 16.2.0
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^12.38.0
