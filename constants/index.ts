@@ -121,7 +121,7 @@ export const FRONTEND_SKILL = [
   },
 ] as const;
 
-export const BACKEND_SKILL = [] as const;
+export const BACKEND_SKILL: { skill_name: string; image: string; width: number; height: number }[] = [] as const;
 
 export const FULLSTACK_SKILL = [
   {
@@ -138,7 +138,7 @@ export const FULLSTACK_SKILL = [
   },
 ] as const;
 
-export const OTHER_SKILL = [] as const;
+export const OTHER_SKILL: { skill_name: string; image: string; width: number; height: number }[] = [] as const;
 
 export const PROJECTS = [
   {
@@ -180,7 +180,14 @@ export const PROJECTS = [
   },
 ] as const;
 
-export const FOOTER_DATA = [] as const;
+export const FOOTER_DATA: Array<{
+  title: string;
+  data: Array<{
+    name: string;
+    icon: any;
+    link: string;
+  }>;
+}> = [];
 
 export const NAV_LINKS = [
   {
