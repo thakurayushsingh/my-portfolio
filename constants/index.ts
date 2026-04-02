@@ -62,7 +62,7 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://www.instagram.com/thakurayushsingh/",
+    link: "https://www.instagram.com/thakurayushsingh556/",
   },
   {
     name: "Twitter",
