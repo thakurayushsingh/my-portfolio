@@ -61,6 +61,16 @@ export const HeroContent = () => {
           className="flex flex-row gap-4"
         >
           <a
+            href="/Ayush_Singh_Resume.pdf"
+            download="Ayush_Singh_Resume.pdf"
+            className="flex items-center gap-2 py-2 px-6 text-center text-white cursor-pointer rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500 hover:opacity-90 transition-opacity"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+            </svg>
+            Resume
+          </a>
+          <a
             href="#projects"
             className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg"
           >
